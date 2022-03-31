@@ -1,0 +1,33 @@
+
+body.login{
+    background-color:rgb(0, 0, 0);
+}
+.fondo.login{
+    background-image: url("../home/road2.jpg");
+    background-size: cover;
+ background-position: center;
+
+}
+
+.form.login{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 7%;
+    background-color:rgb(253, 253, 253);
+}
+
+.text.login{
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#boton-registrar{
+    position: static;
+    margin-right: 10%;
+    margin-bottom: auto;
+    float: right;
+    text-align: left;
+}

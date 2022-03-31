@@ -1,0 +1,220 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+html {
+  scroll-behavior: smooth;
+}
+
+body.home{
+  background-color: black;
+}
+
+.home header *{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1vh 1vh;
+}
+
+.home h1{
+  font-size: 5vh;
+}
+.home h2{
+  font-size: 2.5vw;
+  margin-top: 0px;
+}
+
+#logito{
+  width: 5vw;
+}
+
+.home header{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(230, 230, 230, 0.4);
+  color: white;
+}
+
+.home header a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+.header-right{
+  margin: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+.home header a {
+  vertical-align: middle;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 4vh 1vh 4vh 1vh;
+  font-size: 2vw;
+  line-height: 1.5vh;
+  border-radius: 4px;
+}
+
+
+
+#banner{
+  max-height: 70vw;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white ;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#bannerimg{
+  margin-top:0vw;
+  width: 100%;
+  opacity: 0.5;
+}
+.home section{
+  padding-top:0;
+  margin-top: 0px;
+}
+
+
+.cuadro{
+  padding: 0px !important;
+  overflow: hidden;
+  max-height: 400px;
+  border-radius: 20px;
+}
+
+.cuadro img{
+  width: 100%;
+}
+.home h3{
+  font-size: 1.5vw;
+}
+
+.gridcont{
+  padding-top:7vh;
+  margin: auto auto 7vh auto;
+  max-width: 80%;
+}
+.gridcont *{
+  color: white;
+  background: none;
+}
+.valores{
+  width: 50%;
+}
+
+.gridcont p{
+  font-size: 2.5vh;
+  text-align: justify;
+  padding: 1vw;
+}
+
+#upbutton{
+  color: white;
+  position: fixed;
+  width: 30%;
+  max-width: 100px;
+  bottom: 5%;
+  right: 5%;
+  font-size: 4vw;
+}
+#ls{
+  position: relative;
+  overflow: hidden;
+}
+
+#ls::before{
+    width: 100%;
+    min-height: 80vw;
+    content: "";
+    position: absolute;
+    top:-20vw;
+    left: 0%;
+    z-index: -1;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1200px){
+  .gridcont p{
+      font-size: 2vh;
+  }
+  h1.home{
+    font-size: 5vw;
+  }
+  h2.home{
+    font-size: 3vw;
+  }
+  h3.home{
+    font-size: 2vw;
+  }
+
+  header.home a{
+      font-size: 4vw;
+      padding: 4vh 1vh 4vh 1vh;
+  }
+
+  #upbutton{
+    max-width: none !important;
+    font-size: 7vw;
+  }
+}
+
+
+@media screen and (max-width: 1000px){
+  .centered{
+      font-size: 3vw;
+    max-height: 200px;
+    top: 70%;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+    .home h2,.home h3{
+      font-size: 4vw;
+    }
+
+    #slogan p{
+      font-size: 3vw;
+    }
+    .gridcont{
+      padding-top: 2vh;
+      margin: auto auto 2vh auto;
+    }
+
+    header.home a{
+        font-size: 4vw;
+        padding: 2vh 1vh 2vh 1vh;
+          line-height: 0.5vh;
+    }
+    .MuiGrid-grid-xs-6 {
+      max-width: 100% !important;
+      flex-basis: 100% !important;
+    }
+
+    .MuiGrid-grid-xs-true{
+      max-width: 100% !important;
+      flex-basis: 100% !important;
+    }
+    #upbutton{
+      font-size: 15vw;
+    }
+
+    .header-right{
+      margin: 0px !important;
+    }
+
+}

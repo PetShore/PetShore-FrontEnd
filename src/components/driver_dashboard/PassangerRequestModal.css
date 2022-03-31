@@ -1,0 +1,26 @@
+.buttonblack{
+  color: red !important;
+  border: 1px solid black !important;
+}
+.buttonyellow{
+  color: rgb(214, 127, 0)  !important;
+  border: 1px solid rgb(214, 127, 0)  !important;
+}
+.buttongreen{
+  color: green !important;
+  border: 1px solid green !important;
+}
+.cancelbutton{
+  color: red !important;
+  border: 1px solid black !important;
+}
+
+.marginbuttonleft{
+    margin-left: 10px !important;
+}
+
+.noborder{
+    border-color: rgba(224, 224, 224, 1) !important;
+    border-left: none !important;
+    border-right: none !important;
+}
